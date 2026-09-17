@@ -6,4 +6,8 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-n = int(input())
+n = int(input("ใส่ตัวเลข: "))
+if n%5==0 :
+    print("yes")
+else:
+    print("no")
